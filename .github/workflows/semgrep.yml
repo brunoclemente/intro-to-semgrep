@@ -14,5 +14,5 @@ jobs:
     - uses: returntocorp/semgrep-action@v1
       with:
         auditOn: push
-        publishToken: SEMGREP_APP_TOKEN
+        publishToken: ${{ secrets.SEMGREP_APP_TOKEN }}
         publishDeployment: 1628

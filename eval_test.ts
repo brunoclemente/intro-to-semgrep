@@ -29,9 +29,7 @@ my_eval (foo);
 
 // Or new lines
 // ruleid:juice-shop-eval
-my_eval (
-  bar
-);
+my_eval (bar);
 
 // grep would flag this, but it's not an issue, it's in a comment
 // my_eval(foo)
